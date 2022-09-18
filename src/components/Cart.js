@@ -208,6 +208,18 @@ const cart = () => {
           </div>
         </div>
         {/* 333333333333333333333333333 */}
+        <p className="flex justify-center items-center text-xl font-semibold pt-8">
+          Subtotal :{" "}
+          <sup>
+            <FaRupeeSign />
+          </sup>{" "}
+          <span className="text-xl font-bold"> 1,000</span>{" "}
+        </p>
+        <div className="text-center">
+          <button className="bg-orange-500 py-2 px-10 rounded-xl mt-4 text-white">
+            Proceed to buy(3 items)
+          </button>
+        </div>
       </div>
     </section>
   );
